@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 98496478}
   - component: {fileID: 98496477}
   - component: {fileID: 98496476}
-  - component: {fileID: 98496479}
   m_Layer: 5
   m_Name: Button_Fang
   m_TagString: Untagged
@@ -207,18 +206,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 98496479}
-        m_TargetAssemblyTypeName: Button_Fang, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 845348534}
         m_TargetAssemblyTypeName: Player_0_Controller, Assembly-CSharp
         m_MethodName: Fang
@@ -269,18 +256,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98496474}
   m_CullTransparentMesh: 1
---- !u!114 &98496479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 98496474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a6e35ff18c5f7a4284a2e4e42fe4257, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &171897163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,7 +1071,6 @@ GameObject:
   - component: {fileID: 1605853729}
   - component: {fileID: 1605853728}
   - component: {fileID: 1605853727}
-  - component: {fileID: 1605853730}
   m_Layer: 5
   m_Name: Button_Chu
   m_TagString: Untagged
@@ -1168,18 +1142,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1605853730}
-        m_TargetAssemblyTypeName: Button_Chu, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 845348534}
         m_TargetAssemblyTypeName: Player_0_Controller, Assembly-CSharp
         m_MethodName: Chu
@@ -1230,18 +1192,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605853725}
   m_CullTransparentMesh: 1
---- !u!114 &1605853730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605853725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af194a34f954f164e9f04ac6ea452596, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1843066078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,7 +1204,6 @@ GameObject:
   - component: {fileID: 1843066082}
   - component: {fileID: 1843066081}
   - component: {fileID: 1843066080}
-  - component: {fileID: 1843066083}
   m_Layer: 5
   m_Name: Button_Bo
   m_TagString: Untagged
@@ -1326,18 +1275,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1843066083}
-        m_TargetAssemblyTypeName: Button_Bo, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 437764524}
         m_TargetAssemblyTypeName: Player_1_Controller, Assembly-CSharp
         m_MethodName: getBo
@@ -1400,15 +1337,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843066078}
   m_CullTransparentMesh: 1
---- !u!114 &1843066083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1843066078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38015d43ac4511843a1234594a637dc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

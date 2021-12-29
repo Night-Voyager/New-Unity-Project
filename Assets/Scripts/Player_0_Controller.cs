@@ -24,12 +24,14 @@ public class Player_0_Controller : MonoBehaviour
 
     public void Chu()
     {
+        Debug.Log("储");
         state = (int)State.Chu;
         qi++;
     }
 
     public void Bo()
     {
+        Debug.Log("波");
         if (qi > 0)
         {
             state = (int)State.Bo;
@@ -44,6 +46,7 @@ public class Player_0_Controller : MonoBehaviour
 
     public void Fang()
     {
+        Debug.Log("防");
         state = (int)State.Fang;
     }
 }
