@@ -826,6 +826,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   qi: 0
+  blinkNumber: 3
+  blinkTime: 0.1
 --- !u!212 &845348535
 SpriteRenderer:
   m_ObjectHideFlags: 0
