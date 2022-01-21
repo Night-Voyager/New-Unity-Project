@@ -31,4 +31,8 @@ public class Player_1_Controller : MonoBehaviour
             Debug.Log("Player 1 is out.");
         }
     }
+
+    private void OnMouseUpAsButton() {
+        Debug.Log("click player 1");
+    }
 }
