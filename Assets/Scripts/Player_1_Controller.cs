@@ -34,5 +34,6 @@ public class Player_1_Controller : MonoBehaviour
 
     private void OnMouseUpAsButton() {
         Debug.Log("click player 1");
+        EventManager.DispatchEvent<string>("ClickPlayer", "ClickPlayer1");
     }
 }

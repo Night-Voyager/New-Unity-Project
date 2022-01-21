@@ -7,6 +7,11 @@ public class MouseActionQueue : MonoBehaviour
 {
     Queue mouseActionQueue = new Queue();
 
+    // Awake is called when initializing
+    void Awake() {
+        EventManager.AddEvent<string>("ClickPlayer", ClickPlayer);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +28,10 @@ public class MouseActionQueue : MonoBehaviour
     {
         mouseActionQueue.Clear();
         Debug.Log("Mouse action queue cleared.");
+    }
+
+    private void ClickPlayer(string s)
+    {
+        Debug.Log(s);
     }
 }
