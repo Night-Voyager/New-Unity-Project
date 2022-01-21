@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouseActionQueue : MonoBehaviour
+public class MouseActionStack : MonoBehaviour
 {
-    Queue mouseActionQueue = new Queue();
+    Stack mouseActionStack = new Stack();
 
     // Awake is called when initializing
     void Awake() {
+        EventManager.AddEvent("ClickBo", ClickBo);
         EventManager.AddEvent<string>("ClickPlayer", ClickPlayer);
     }
 
@@ -24,14 +25,19 @@ public class MouseActionQueue : MonoBehaviour
         
     }
 
-    public void ClearQueue()
+    public void ClearStack()
     {
-        mouseActionQueue.Clear();
-        Debug.Log("Mouse action queue cleared.");
+        mouseActionStack.Clear();
+        Debug.Log("Mouse action stack cleared.");
     }
 
     private void ClickPlayer(string s)
     {
         Debug.Log(s);
+    }
+
+    private void ClickBo()
+    {
+        Debug.Log("sBo");
     }
 }

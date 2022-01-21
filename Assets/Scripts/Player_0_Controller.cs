@@ -42,6 +42,7 @@ public class Player_0_Controller : MonoBehaviour
         {
             state = (int)State.Bo;
             qi--;
+            EventManager.DispatchEvent("ClickBo");
         }
         else
         {
