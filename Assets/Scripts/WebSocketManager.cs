@@ -25,7 +25,7 @@ public class WebSocketManager : MonoBehaviour
         {
             ClientWebSocket ws = new ClientWebSocket();
             CancellationToken ct = new CancellationToken();
-            Uri url = new Uri("ws://localhost:8080/api/websocket");
+            Uri url = new Uri("ws://172.27.40.1:8080/api/websocket");
             await ws.ConnectAsync(url, ct);
             await ws.SendAsync(new ArraySegment<byte>(Encoding.UTF8.GetBytes("hello")), WebSocketMessageType.Binary, true, ct);  // Send data
 
